@@ -19,5 +19,13 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnnyb818/bar_bible_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Johnnyb818/bar_bible_api/issues"
+  },
+  "homepage": "https://github.com/Johnnyb818/bar_bible_api#readme",
   "description": ""
 }

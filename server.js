@@ -23,7 +23,11 @@ app.use(express.json());
 app.use(morgan("tiny")); //logging
 
 
+//CONTROLLERS
+const drinkController = require("./controllers/drinks.js")
 
+
+app.use("/drinks", drinkController)
 
 
 

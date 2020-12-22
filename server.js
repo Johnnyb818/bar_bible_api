@@ -25,12 +25,13 @@ app.use(morgan("tiny")); //logging
 
 //CONTROLLERS
 const drinkController = require("./controllers/drinks.js")
-
-
+const syrupController = require("./controllers/syrups.js")
+const toolController = require("./controllers/tools.js")
+const videoController = require("./controllers/videos.js")
 app.use("/drinks", drinkController)
-
-
-
+app.use("/syrups", syrupController)
+app.use("/tools", toolController)
+app.use("/videos", videoController)
 
 
 

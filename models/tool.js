@@ -4,6 +4,7 @@ const toolSchema = mongoose.Schema({
     name: {type: String, required: true},
     img: String,
     url: String,
+    price: String,
     description: String,
 })
 
